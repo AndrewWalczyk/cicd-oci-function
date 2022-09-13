@@ -24,10 +24,10 @@ terraform {
   }
 }
 
-provider "oci" {
-  tenancy-ocid = var.tenancy-ocid
-  region       = var.region
-}
+# provider "oci" {
+#   tenancy-ocid = var.tenancy-ocid
+#   region       = var.region
+# }
 
 provider "oci" {
   alias        = "home-region"
